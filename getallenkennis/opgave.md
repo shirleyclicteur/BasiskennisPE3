@@ -1,7 +1,18 @@
-#hamming-opgave
+#**hamming-opgave**
 
-|   **Positie**     |  1  |  2  |  3  |  4  |  5  |  6  |  7  |
-|   **binair**      | 001 | 010 | 011 | 100 | 101 | 110 | 111 |
-|   **Data-hamming**   | H0 | H1 | D0 | H2 | D1 | D2 | D3 |
-|   **teken**       | 1 | 1 | 1 | 0 | 1 | 1 | 0 |
+#**1110110**
+
+P0 is een pariteitscontrole van de bits die H0 bewaakt. 
+=> P0 = H0 +D0 +D1 +D3 = 1 + 1 + 1 + 0 = 1
+
+P1 is een pariteitscontrole van de bits die H1 bewaakt. 
+=> P1 = H1 +D0 +D2 +D3 = 1 + 1 + 1 + 0 = 1
+
+P2 is een pariteitscontrole van de bits die H1 bewaakt. 
+=> P2 = H2 +D1 +D2 +D3 = 0 + 1 + 1 + 0 = 0
+
+(P2P1P0)2=011=3 
+Er is een fout op positie 3!
+=> Na controle : Datacorrectie op positie 3 : 1100110 => Data : 0110 
+
 
