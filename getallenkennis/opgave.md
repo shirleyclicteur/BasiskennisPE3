@@ -14,3 +14,15 @@ P2 is een pariteitscontrole van de bits die H1 bewaakt.
 (P2P1P0)2=011=3 
 Er is een fout op positie 3!
 => Na controle : Datacorrectie op positie 3 : 1100110 => Data : 0110 
+
+
+##van decimaal naar hexadecimaal
+
+(845)10 = ()16
+ 
+ 845/16 = 52    rest 13=D
+ 52/16  = 3     rest 4
+ 3/16   = 0     rest 3
+
+ 845 hexadecimaal is 34D
+
