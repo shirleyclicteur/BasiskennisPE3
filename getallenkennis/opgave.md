@@ -1,6 +1,5 @@
-#**hamming-opgave**
-
-#**1110110**
+**hamming-opgave**
+**1110110**
 
 P0 is een pariteitscontrole van de bits die H0 bewaakt. 
 => P0 = H0 +D0 +D1 +D3 = 1 + 1 + 1 + 0 = 1
